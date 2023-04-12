@@ -30,7 +30,7 @@ const handleShowAll=()=>{
       const loadCategoryData=async()=>{
         const resCategory=await fetch('products.json');
         const val=await resCategory.json();
-       // console.log(value)
+        console.log(value)
        setCategory(val);
       }
       loadCategoryData();
