@@ -19,7 +19,7 @@ const handleShowAll=()=>{
      const loadData=async()=>{
        const res=await fetch('fakeData.json');
        const value=await res.json();
-      // console.log(value)
+       console.log(value)
        setData(value);
      }
      loadData();
@@ -30,7 +30,7 @@ const handleShowAll=()=>{
       const loadCategoryData=async()=>{
         const resCategory=await fetch('products.json');
         const val=await resCategory.json();
-        console.log(value)
+        //console.log(value)
        setCategory(val);
       }
       loadCategoryData();
