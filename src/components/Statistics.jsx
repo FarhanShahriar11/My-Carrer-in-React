@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import image from '../assets/All Images/P3OLGJ1 copy 1.png'
+import image from '../../public/Assets/All Images/P3OLGJ1 copy 1.png'
 import JobCategory from './JobCategory';
 import { useLoaderData } from 'react-router-dom';
 import SingleData from './SingleData';
