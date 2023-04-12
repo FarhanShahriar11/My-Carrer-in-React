@@ -22,10 +22,7 @@ const JobDetails = () => {
      addToDb(id)
     }
     return (
-        // <div>
-        //     <h1>farhan</h1>
-        //     <h2>{details.name}</h2>
-        // </div>
+       
             <section>
                 <h1 className='font-bold text-3xl text-center ms-3'>Job Details</h1>
         <div className='flex my-container  '>
