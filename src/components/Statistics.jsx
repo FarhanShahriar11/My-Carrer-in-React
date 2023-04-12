@@ -19,7 +19,7 @@ const handleShowAll=()=>{
      const loadData=async()=>{
        const res=await fetch('fakeData.json');
        const value=await res.json();
-       console.log(value)
+       //console.log(value)
        setData(value);
      }
      loadData();

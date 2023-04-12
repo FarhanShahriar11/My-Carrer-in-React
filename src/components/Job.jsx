@@ -22,10 +22,6 @@ const Job = () => {
                     <ul className='flex flex-col space-y-6'>
                         {
                             cartArray.map(product => (
-                                // <CartItem
-                                //     key={product.id}
-                                //     product={product}
-                                // ></CartItem>
                                 <CartItem key={product.id}
                                 product={product}></CartItem>
                             ))
