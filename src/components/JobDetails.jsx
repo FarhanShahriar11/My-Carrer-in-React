@@ -16,9 +16,9 @@ const JobDetails = () => {
         getData()
     }, [])
     
-   // console.log(details);
+   
     const handleAdd=(id)=>{
-        //console.log(id);
+       
      addToDb(id)
     }
     return (
